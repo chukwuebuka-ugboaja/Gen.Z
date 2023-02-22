@@ -1,0 +1,35 @@
+body {
+  padding-bottom: 20px;
+  font-family: open sans, sans-serif;
+}
+
+.navbar {
+  margin-bottom: 50px;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.icon-link > .bi {
+  margin-top: .125rem;
+  margin-left: .125rem;
+  fill: currentcolor;
+  transition: transform .25s ease-in-out;
+}
+.icon-link:hover > .bi {
+  transform: translate(.25rem);
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+.gallery{
+  width: 65vw;
+  margin-left: 300px;
+}
